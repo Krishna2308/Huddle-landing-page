@@ -52,7 +52,9 @@
     border-radius: 100%;
 }
 
-
-
-
-
+/* Set media properties for mobile sized viewports */
+@media screen and (max-width: 375px) {
+    .illustration {
+        width: 70vw;
+    }
+}
