@@ -53,8 +53,36 @@
 }
 
 /* Set media properties for mobile sized viewports */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
     .illustration {
         width: 70vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cta-head {
+        width: 70vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 130%;
+        text-align: center;
+    }
+    .cta-body {
+        width: 75vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 90%;
+        text-align: center;
+        font-weight: 400;
+    }
+    .cta-button {
+        width: 50vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* font-size: 130%; */
+        text-align: center;   
     }
 }
