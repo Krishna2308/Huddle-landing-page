@@ -1,8 +1,9 @@
+* {
+    max-width: 100vw;
+}
 .logo {
-    /* height: 40px;
-    width: 200px; */
-    height: 30%;
-    width: auto;
+    width: 15vw;
+    height: auto;
 }
 
 .heading {
@@ -23,9 +24,9 @@
     background-image: url('images/bg-desktop.svg');
     overflow: auto;
     height: 100vh;
+    width: auto;
     background-repeat: no-repeat;
-    position: relative;
-    z-index: 4;
+    /* position: relative; */
 }
 
 .footer {
@@ -48,41 +49,105 @@
 .icons {
     color: white;
     font-size: x-large;
-    border: 5px white;
-    border-radius: 100%;
+    /* border: 5px white; */
+    /* border-radius: 100%; */
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: white; 
+    width: 100vw;
+    max-width: 100vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .illustration {
+        margin-top: 8%;
+        width: 45vw;
+    }
+    .logo {
+        position: relative;
+        margin-top: 5px;
+    }
+    .icons {
+        /* margin-right: 10px; */
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px;
+    }
+    /* .fa-facebook { */
+        /* display: flex;
+        justify-content: right; */
+        /* margin-right: 0px; */
+        /* position: relative; */
+    /* } */
+    .cta-block {
+        margin-top: 4%;
+    }
+}
+
+.fa-facebook:hover {
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+.fa-twitter:hover {
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+.fa-instagram:hover {
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
 }
 
 /* Set media properties for mobile sized viewports */
 @media screen and (max-width: 414px) {
     .illustration {
         width: 70vw;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 14vw;
     }
     .cta-head {
         width: 70vw;
         display: block;
-        margin-left: auto;
+        margin-left: 14vw;
         margin-right: auto;
         font-size: 130%;
         text-align: center;
     }
     .cta-body {
-        width: 75vw;
+        width: 70vw;
         display: block;
-        margin-left: auto;
+        margin-left: 14vw;
         margin-right: auto;
         font-size: 90%;
         text-align: center;
-        font-weight: 400;
     }
     .cta-button {
         width: 50vw;
+        height: 6vh;
         display: block;
-        margin-left: auto;
+        margin-left: 25vw;
         margin-right: auto;
-        /* font-size: 130%; */
-        text-align: center;   
+        font-size: 85%;
+        text-align: center;
+    }
+    .icons {
+        width: 100vw;
+        text-align: center;
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto; */
+    }
+    .logo {
+        width: 30vw;
+        height: auto;   
+    }
+    .body-bg {
+        background-image: url("images/bg-mobile.svg");
+        height: 100vh;
     }
 }
