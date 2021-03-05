@@ -75,17 +75,10 @@
         margin-top: 5px;
     }
     .icons {
-        /* margin-right: 10px; */
-        display: flex;
-        justify-content: flex-end;
-        margin-right: 10px;
+        position: relative;
+        max-width: 200px;
+        left: 78vw;
     }
-    /* .fa-facebook { */
-        /* display: flex;
-        justify-content: right; */
-        /* margin-right: 0px; */
-        /* position: relative; */
-    /* } */
     .cta-block {
         margin-top: 4%;
     }
