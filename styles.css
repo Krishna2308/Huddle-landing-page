@@ -37,7 +37,7 @@
 
 .button {
     /* color: white; */
-    /* background-color: hsl(300, 69%, 71%); */
+    background-color: white;
     color: hsl(257, 40%, 49%);
     font-family: 'Open Sans', sans-serif;
     border-radius: 30px;
