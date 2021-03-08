@@ -36,14 +36,19 @@
 }
 
 .button {
-    color: white;
-    background-color: hsl(300, 69%, 71%);
+    /* color: white; */
+    /* background-color: hsl(300, 69%, 71%); */
+    color: hsl(257, 40%, 49%);
     font-family: 'Open Sans', sans-serif;
     border-radius: 30px;
     width: 180px;
     height: 50px;
     font-size: large;
     border-width: 0px;
+}
+
+.cta-button:hover {
+    color: hsl(300, 69%, 71%);
 }
 
 .icons {
@@ -82,9 +87,9 @@
     .cta-block {
         margin-top: 4%;
     }
-    .cta-body {
+    /* .cta-body {
         
-    }
+    } */
 }
 
 .fa-facebook:hover {
