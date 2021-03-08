@@ -48,7 +48,7 @@
 }
 
 .cta-button:hover {
-    color: hsl(300, 69%, 71%);
+    background-color: hsl(300, 69%, 71%);
 }
 
 .icons {
